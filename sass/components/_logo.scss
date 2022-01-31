@@ -1,4 +1,5 @@
 .logo {
+  display: flex;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -8,9 +9,7 @@
 }
 .logo__header {
   color: #000000;
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding: 16px 15px;
   .logo__part {
     color: var(--hover-color);
   }
