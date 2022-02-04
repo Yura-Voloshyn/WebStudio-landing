@@ -3,8 +3,8 @@
   content: '';
   display: flex;
   border: none;
-  width: 210px;
-  height: 92px;
+  max-width: 210px;
+  height: auto;
   justify-content: center;
   align-items: center;
   fill: var(--social-icon-color);
