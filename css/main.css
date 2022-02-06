@@ -852,6 +852,12 @@ img {
   margin-bottom: -30px;
 }
 
+@media screen and (max-width: 1199px) {
+  .pluses__list {
+    margin-bottom: 60px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .pluses__list {
     display: -webkit-box;
@@ -1435,7 +1441,7 @@ img {
   -webkit-box-shadow: 0px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px rgba(0, 0, 0, 0.15);
   border: 1px solid rgba(255, 255, 255, 0.3);
-  width: 100%;
+  width: 450px;
   max-height: 50px;
   border-radius: 4px;
   padding: 15px 16px;
