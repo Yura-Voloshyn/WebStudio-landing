@@ -1103,7 +1103,7 @@ img {
 @media screen and (min-width: 1200px) {
   .joinus {
     margin-top: inherit;
-    margin-left: 60px;
+    margin-left: 70px;
   }
 }
 
@@ -1216,6 +1216,7 @@ img {
   .subscribe {
     margin-top: 0;
     margin-left: 93px;
+    width: 570px;
   }
 }
 

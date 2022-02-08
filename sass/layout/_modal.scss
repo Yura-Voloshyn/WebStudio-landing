@@ -143,6 +143,7 @@
 .agree-options__text {
   content: '';
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 .agree-options__text::before {
