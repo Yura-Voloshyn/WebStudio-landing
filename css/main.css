@@ -817,6 +817,8 @@ img {
 
 @media screen and (min-width: 1200px) {
   .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/hero-desk-1x.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-desk-1x.jpg);
   }
@@ -896,12 +898,6 @@ img {
   margin-bottom: -30px;
 }
 
-@media screen and (max-width: 1199px) {
-  .pluses__list {
-    margin-bottom: 60px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .pluses__list {
     display: -webkit-box;
@@ -926,11 +922,13 @@ img {
 
 .pluses {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 @media screen and (min-width: 1200px) {
   .pluses {
     padding-top: var(--between-section-margin);
+    padding-bottom: 0;
   }
 }
 
@@ -961,6 +959,12 @@ img {
   margin-top: 30px;
 }
 
+@media screen and (max-width: 767px) {
+  .pluses__title {
+    text-align: center;
+  }
+}
+
 .pluses__text {
   color: var(--second-color);
   font-size: 14px;
@@ -974,14 +978,12 @@ img {
 @media screen and (min-width: 768px) {
   .pluses__text {
     max-width: 354px;
-    min-height: 75px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .pluses__text {
     max-width: 270px;
-    min-height: 75px;
   }
 }
 
@@ -1039,8 +1041,9 @@ img {
 }
 
 .team-list {
-  margin-top: 50px;
+  margin-top: 30px;
   list-style-type: none;
+  margin-bottom: -30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1061,6 +1064,7 @@ img {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    margin-top: 50px;
     margin-left: -30px;
   }
 }
@@ -1122,7 +1126,7 @@ img {
 .clients-list {
   content: '';
   list-style: none;
-  margin-top: 50px;
+  margin-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1130,6 +1134,24 @@ img {
       flex-wrap: wrap;
   margin-left: -30px;
   margin-bottom: -30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .clients-list {
+    margin-top: 50px;
+  }
+}
+
+.filters {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .filters {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .section-title {
@@ -1153,7 +1175,6 @@ img {
   display: -ms-flexbox;
   display: flex;
   border: none;
-  max-width: 210px;
   height: auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;

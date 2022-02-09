@@ -10,9 +10,7 @@
 .pluses__list {
   list-style-type: none;
   margin-bottom: -30px;
-  @media screen and (max-width: 1199px) {
-    margin-bottom: 60px;
-  }
+
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
@@ -27,8 +25,10 @@
 
 .pluses {
   padding-top: 60px;
+  padding-bottom: 60px;
   @media screen and (min-width: 1200px) {
     padding-top: var(--between-section-margin);
+    padding-bottom: 0;
   }
 }
 .pluses__item {
@@ -50,6 +50,10 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-top: 30px;
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }
 .pluses__text {
   color: var(--second-color);
@@ -61,10 +65,8 @@
   min-height: 50px;
   @media screen and (min-width: 768px) {
     max-width: 354px;
-    min-height: 75px;
   }
   @media screen and (min-width: 1200px) {
     max-width: 270px;
-    min-height: 75px;
   }
 }

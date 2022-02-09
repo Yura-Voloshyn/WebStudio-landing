@@ -787,7 +787,6 @@ img {
       flex-wrap: wrap;
   list-style-type: none;
   margin-bottom: -15px;
-  padding-top: 60px;
 }
 
 @media screen and (min-width: 768px) {
@@ -795,12 +794,6 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .button-list {
-    padding-top: 94px;
   }
 }
 
@@ -860,8 +853,8 @@ img {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  margin-bottom: 60px;
   list-style-type: none;
+  margin-bottom: -30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -873,7 +866,6 @@ img {
 @media screen and (min-width: 1200px) {
   .portfolio-list {
     margin-top: 50px;
-    margin-bottom: 94px;
   }
 }
 
@@ -1315,5 +1307,17 @@ img {
   content: '';
   fill: currentColor;
   margin-left: 10px;
+}
+
+.filters {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .filters {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 /*# sourceMappingURL=portfolio.css.map */
